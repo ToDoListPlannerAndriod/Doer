@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:padding="10dp">
+
+    <TextView
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Sup"
+    android:id="@+id/task_title"
+    android:textSize="20sp"
+    android:layout_weight="1"
+    android:layout_gravity="left|center_vertical" />
+
+    <Button
+
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delete"
+    android:id="@+id/task_delete"
+    android:onClick="deleteTask"
+    android:layout_weight="0.25"
+    android:layout_gravity="center_vertical|right" />
+</LinearLayout>

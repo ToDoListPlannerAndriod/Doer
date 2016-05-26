@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/gr">
+    <item android:id="@+id/action_history"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="History"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_current"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="List"
+        android:visible="false"
+        app:showAsAction="always" />
+
+        <item android:id="@+id/action_add_task"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Task"
+        app:showAsAction="always" />
+    </group>
+
+</menu>
